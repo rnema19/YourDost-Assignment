@@ -1,0 +1,12 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "task": "Football",
+      "description": "Have to go to turf!!!",
+      "completed": true,
+      "createdAt": "2025-11-20T15:25:09.008Z"
+    }
+  ],
+  "nextId": 2
+}
