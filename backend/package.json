@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "express": "^5.1.0",
+    "ip": "^2.0.1",
     "mongoose": "^8.20.0"
   }
 }
