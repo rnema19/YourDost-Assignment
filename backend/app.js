@@ -10,7 +10,9 @@ app.use("/todos", todoRoutes)
 
 app.get("/", async (req,res) => {
     var ipaddress = req.ip
-    res.send(ip)
+    console.log(ipaddress);
+    
+    res.send(ipaddress)
 })
 
 app.listen(3000,()=>{
