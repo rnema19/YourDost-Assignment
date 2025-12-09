@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended:true}))
 
 app.use("/todos", todoRoutes)
 
-app.use("/", async (req,res) => {
+app.get("/", async (req,res) => {
     var ipaddress = req.ip
     res.send(ip)
 })
